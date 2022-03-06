@@ -8,3 +8,4 @@ pandas>=0.17.1
 pytest>=2.9.2
 scikit-learn
 scipy
+ipykernel
