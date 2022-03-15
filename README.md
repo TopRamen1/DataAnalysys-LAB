@@ -1,6 +1,6 @@
 # DataAnalysys-LAB
 
-Repo containing data analysyc laboratory excercises
+Repo containing data analysys laboratory excercises solutions.
 
 ## Instalation
 
@@ -11,3 +11,10 @@ conda activate cmdstan
 
 conda install --file requirements.txt
 ```
+
+## Running
+
+1. Open VSCode.
+2. Navigate to lab an `.ipynb` file.
+3. Choose `cmdstan` environment.
+4. Run the script.
