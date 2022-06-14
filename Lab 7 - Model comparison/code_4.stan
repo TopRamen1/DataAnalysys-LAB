@@ -16,10 +16,10 @@ model{
 }
 
 generated quantities {
-   vector[N] log_likelihood;
+   vector[N] log_lik;
    array [N] real y_hat;
    for(j in 1:N){
-       log_likelihood[j] = student_t_lpdf(y[j] | nu, mu, sigma);
+       log_lik[j] = student_t_lpdf(y[j] | nu, mu, sigma);
        y_hat[j] = student_t_rng(nu,mu,sigma);
    }
 }
